@@ -56,4 +56,6 @@
       <param name="Mem/IncrementalMemory" type="string" value="false"/>
     </node>
   </group>
+
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find my_robot)/my_robot.rviz"/>
 </launch>
